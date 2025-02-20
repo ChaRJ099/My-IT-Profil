@@ -1,14 +1,8 @@
 {
+    "name": "John Doe",
+    "title": "Full Stack Developer",
     "sections": [
-      {
-        "id": "1",
-        "title": "Expérience",
-        "content": "Développeuse Frontend chez XYZ"
-      },
-      {
-        "id": "2",
-        "title": "Formation",
-        "content": "Master en Développement Web"
-      }
+      { "id": "exp", "title": "Expérience", "content": "Développeur chez X" },
+      { "id": "edu", "title": "Éducation", "content": "Master en Informatique" }
     ]
   }

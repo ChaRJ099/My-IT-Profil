@@ -1,0 +1,148 @@
+{
+  "name": "Développeur Web",
+  "competences": [
+    { "label": "Frontend", "value": 8 },
+    { "label": "Backend", "value": 6 },
+    { "label": "UI/UX", "value": 7 },
+    { "label": "DevOps", "value": 5 },
+    { "label": "SEO", "value": 3 },
+    { "label": "Management", "value": 7 }
+  ],
+"questionnaire": [
+    {
+      "theme": "Gestion de projet & méthodologie",
+      "questions": [
+        {
+          "question": "Quelle méthodologie est basée sur des cycles courts et itératifs ?",
+          "choices": ["Cycle en V", "Agile", "Lean", "Waterfall"],
+          "answer": "Agile"
+        },
+        {
+          "question": "Quel outil est souvent utilisé pour la planification et le suivi des tâches en Agile ?",
+          "choices": ["Trello", "Jira", "Asana", "Tous les précédents"],
+          "answer": "Tous les précédents"
+        }
+      ]
+    },
+    {
+      "theme": "Développement & programmation",
+      "questions": [
+        {
+          "question": "Quel langage est principalement utilisé pour le développement frontend ?",
+          "choices": ["Python", "JavaScript", "Java", "C++"],
+          "answer": "JavaScript"
+        },
+        {
+          "question": "Quelle est la principale différence entre SQL et NoSQL ?",
+          "choices": [
+            "SQL est relationnel, NoSQL est non relationnel",
+            "NoSQL est plus rapide que SQL",
+            "SQL est utilisé uniquement pour les petites bases de données",
+            "NoSQL ne stocke pas de données structurées"
+          ],
+          "answer": "SQL est relationnel, NoSQL est non relationnel"
+        }
+      ]
+    },
+    {
+      "theme": "UX/UI Design & Ergonomie",
+      "questions": [
+        {
+          "question": "Quel outil est couramment utilisé pour créer des maquettes d'interface utilisateur ?",
+          "choices": ["Figma", "Docker", "GitHub", "AWS"],
+          "answer": "Figma"
+        },
+        {
+          "question": "Quel principe est essentiel pour garantir l’accessibilité web ?",
+          "choices": ["SEO", "WCAG", "API REST", "Jenkins"],
+          "answer": "WCAG"
+        }
+      ]
+    },
+    {
+      "theme": "Infrastructure & DevOps",
+      "questions": [
+        {
+          "question": "Quel service cloud n'appartient pas à Amazon AWS ?",
+          "choices": ["EC2", "S3", "Google Cloud Functions", "Lambda"],
+          "answer": "Google Cloud Functions"
+        },
+        {
+          "question": "Quel outil est utilisé pour la conteneurisation d’applications ?",
+          "choices": ["Jenkins", "Docker", "Kubernetes", "Terraform"],
+          "answer": "Docker"
+        }
+      ]
+    },
+    {
+      "theme": "Qualité & Testing",
+      "questions": [
+        {
+          "question": "Quel framework est utilisé pour les tests unitaires en JavaScript ?",
+          "choices": ["Jest", "Mocha", "Cypress", "Tous les précédents"],
+          "answer": "Tous les précédents"
+        },
+        {
+          "question": "Que signifie SOLID dans le développement logiciel ?",
+          "choices": [
+            "Un ensemble de principes de programmation orientée objet",
+            "Un protocole de transfert de données sécurisé",
+            "Une technique de design UX",
+            "Un standard de cybersécurité"
+          ],
+          "answer": "Un ensemble de principes de programmation orientée objet"
+        }
+      ]
+    },
+    {
+      "theme": "Sécurité & conformité",
+      "questions": [
+        {
+          "question": "Quel est l’objectif de l’authentification à deux facteurs (2FA) ?",
+          "choices": [
+            "Rendre les connexions plus rapides",
+            "Augmenter la sécurité en exigeant deux formes de vérification",
+            "Stocker les mots de passe de manière sécurisée",
+            "Remplacer complètement les mots de passe"
+          ],
+          "answer": "Augmenter la sécurité en exigeant deux formes de vérification"
+        },
+        {
+          "question": "Quelle loi encadre la protection des données personnelles en Europe ?",
+          "choices": ["DMCA", "RGPD", "CISPA", "HIPAA"],
+          "answer": "RGPD"
+        }
+      ]
+    },
+    {
+      "theme": "Marketing & SEO",
+      "questions": [
+        {
+          "question": "Quel facteur influence le plus le référencement naturel (SEO) ?",
+          "choices": ["Temps de chargement", "Qualité du contenu", "Backlinks", "Tous les précédents"],
+          "answer": "Tous les précédents"
+        },
+        {
+          "question": "Quel outil est utilisé pour analyser le trafic d’un site web ?",
+          "choices": ["Google Analytics", "Jenkins", "Docker", "AWS Lambda"],
+          "answer": "Google Analytics"
+        }
+      ]
+    },
+    {
+      "theme": "Data & Intelligence Artificielle",
+      "questions": [
+        {
+          "question": "Quel langage est le plus utilisé pour le Machine Learning ?",
+          "choices": ["Python", "Java", "C#", "Swift"],
+          "answer": "Python"
+        },
+        {
+          "question": "Quel framework est couramment utilisé pour l’IA et le Deep Learning ?",
+          "choices": ["TensorFlow", "React", "Laravel", "Vue.js"],
+          "answer": "TensorFlow"
+        }
+      ]
+    }
+  ]
+}

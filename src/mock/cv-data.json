@@ -1,8 +1,0 @@
-{
-    "name": "John Doe",
-    "title": "Full Stack Developer",
-    "sections": [
-      { "id": "exp", "title": "Expérience", "content": "Développeur chez X" },
-      { "id": "edu", "title": "Éducation", "content": "Master en Informatique" }
-    ]
-  }
